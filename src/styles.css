@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400&family=Tangerine:wght@400;700&display=swap");
+
+body {
+  background-color: aliceblue;
+}
+
+button {
+  border: none;
+}
+
+.App {
+  font-family: Lato;
+  /* text-align: center; */
+  max-width: 600px;
+  margin: 5rem auto;
+}
+
+.button {
+  background-color: aquamarine;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+}
+
+.song-details {
+  border: 2px solid gray;
+  border-radius: 0.5rem;
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+.song-details h3 {
+  margin-block-start: 0;
+}
